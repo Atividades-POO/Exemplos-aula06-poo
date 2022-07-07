@@ -73,7 +73,7 @@ print(e1.indices) # exibição dos indices da equação e1 em forma de lista
 print("_________________________________________________")
 
 ########################################################################################################################
-
+# o exemplo abaixo se encontrar em https://tinyurl.com/2ljnsncx
 # 4 - introdução ao método especial __repr__
 # método especial __repr__ é usado para representação de dados
 # exemplo de uso de __repr__, crie a classe pessoa e implemente o método __repr__

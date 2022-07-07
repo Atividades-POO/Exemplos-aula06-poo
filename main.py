@@ -73,6 +73,7 @@ print(e1.indices) # exibição dos indices da equação e1 em forma de lista
 print("_________________________________________________")
 
 ########################################################################################################################
+
 # o exemplo abaixo se encontrar em https://tinyurl.com/2ljnsncx
 # 4 - introdução ao método especial __repr__
 # método especial __repr__ é usado para representação de dados
@@ -104,3 +105,13 @@ print(str(p1)) # exibição do objeto p1 agora é 'Davi tem 10 anos'
 print(p1.__str__()) # chamada de método __str__ para exibição de dados em formato de string
 print(p1.__repr__()) # chamada de método __repr__ para exibição de dados em formato de string
 
+
+print("_________________________________________________")
+
+########################################################################################################################
+
+# 5 - voltando a impletação do método __str__ e __repr__ para a classe Equacao (equacao.py)
+e2 = E(4, 0, -1, -1, 0, 1, 0) # instanciação de objeto da classe Equacao
+print(e2) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'
+print(repr(e2)) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'
+print(str(e2)) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'

@@ -65,4 +65,7 @@ func_args(1, 'A', {'valor': 10}) # passagem de 3 paramentos para a função func
 
 # 3.1 exemplo, criação de uma classe que recebe vários argumentos
 # class Equacao:
+from equacao import Equacao as E # importação da classe Equacao da biblioteca equacao.py
+e1 = E(1, 0, -4, 3, 0, 4, 5) # instanciação de objeto da classe Equacao
+print(e1.indices) # exibição dos indices da equação e1 em forma de lista
 

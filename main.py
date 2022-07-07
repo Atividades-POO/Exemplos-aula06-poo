@@ -112,6 +112,8 @@ print("_________________________________________________")
 
 # 5 - voltando a impletação do método __str__ e __repr__ para a classe Equacao (equacao.py)
 e2 = E(4, 0, -1, -1, 0, 1, 0) # instanciação de objeto da classe Equacao
-print(e2) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'
-print(repr(e2)) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'
-print(str(e2)) # exibição do objeto e2 'Equacao(4, 0, -1, -1, 0, 1, 0)'
+print(e2) # exibição do objeto e2 'Equacao = (4, 0, -1, -1, 0, 1, 0)'
+print(repr(e2)) # exibição do objeto e2 'Equacao = (4, 0, -1, -1, 0, 1, 0)'
+print(str(e2)) # exibição do objeto e2 'Equacao = (4, 0, -1, -1, 0, 1, 0)'
+
+

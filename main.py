@@ -60,6 +60,7 @@ def func_args(*args):
 
 # chamando a função func_args com varios argumentos
 func_args(1, 'A', {'valor': 10}) # passagem de 3 paramentos para a função func_args
+# a saída da função func_args é:
 # um INT, um STRING e um DICIONÁRIO
 
 # 3.1 exemplo, criação de uma classe que recebe vários argumentos

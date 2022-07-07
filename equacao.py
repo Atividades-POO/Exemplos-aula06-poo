@@ -13,3 +13,16 @@ class Equacao:
     # self.indices = indices # print(e1.indices) sai como uma tupla de indices
     self.indices = list(indices)  # print(e1.indices) sai como uma lista de indices
     # print(f'Equacao criada com os indices: {self.indices}') # exibição dos indices da equação
+
+# ########################################################################################################################
+# 5 - implementação dos métodos __repr__ e __str__
+# #
+# # método __repr__: representação de um objeto
+# # método __str__: exibição de um objeto
+# #
+# # exemplo de uso de __repr__ e __str__
+# #
+  def __repr__(self):
+    # retorar a representação string da classe Equacao
+    # só para dedmostração, vamos fazer um cast para tupla
+    return f'Equacao = {tuple(self.indices)}'

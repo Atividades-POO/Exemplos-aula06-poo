@@ -68,4 +68,23 @@ func_args(1, 'A', {'valor': 10}) # passagem de 3 paramentos para a função func
 from equacao import Equacao as E # importação da classe Equacao da biblioteca equacao.py
 e1 = E(1, 0, -4, 3, 0, 4, 5) # instanciação de objeto da classe Equacao
 print(e1.indices) # exibição dos indices da equação e1 em forma de lista
+# voltaremos a classe Equacao mais a frente
+
+print("_________________________________________________")
+
+########################################################################################################################
+
+# 4 - introdução ao método especial __repr__
+# método especial __repr__ é usado para representação de dados
+# exemplo de uso de __repr__, crie a classe pessoa e implemente o método __repr__
+# 4.1 importação da classe pessoa
+from pessoa import Pessoa as P
+# 4.2 instanciação da classe pessoa
+p1 = P('Davi', 10) # instanciação de objeto da classe Pessoa com nome 'Davi' e idade 10
+# 4.3 exibição do objeto p1
+print(p1) # exibição do objeto p1
+# por padrão a exibição do objeto p1 é: <pessoa.Pessoa object at 0x000002543C4021A0>  o endereço do objeto pode mudar
+# 4.4 exibição do objeto p1 em forma de string podemos sobrepor o método __repr__ (na classe pessoa)
+
+
 

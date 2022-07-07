@@ -98,5 +98,10 @@ p1 = P('Davi', 10) # instanciação de objeto da classe Pessoa com nome 'Davi' e
 # instância da classe para o str(). Por exemplo, vamos sobrepor o método __str__ para a classe Pessoa:
 print(p1) # exibição do objeto p1 agora é 'Davi tem 10 anos'
 
+# 4.6 da mesma forma que podemos passar um objeto ou valor para o str(), podemos passar um objeto ou valor para o repr()
 
+print(repr(p1)) # exibição do objeto p1 agora é Pessoa(Davi, 10)
+print(str(p1)) # exibição do objeto p1 agora é 'Davi tem 10 anos'
+print(p1.__str__()) # chamada de método __str__ para exibição de dados em formato de string
+print(p1.__repr__()) # chamada de método __repr__ para exibição de dados em formato de string
 

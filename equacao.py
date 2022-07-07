@@ -53,7 +53,7 @@ class Equacao:
         # simbolo += f"{'+' if indice > 0 else '-'}{expoente(grau - i)}"
         simbolo = simbolo + f"{'+' if indice > 0 else '-'}{expoente(grau - i)}"
       elif indice != 0: # se o indice for diferente de 0 então devemos adicionar o sinal do mais ou do menos e o indice
-        simbolo = simbolo + f"{indice:g}{expoente(grau - i)}" # g para formatar o número como float com duas casas decimais e sem sinal
+        simbolo = simbolo + f"{indice:+g}{expoente(grau - i)}" # g para formatar o número como float com duas casas decimais e sem sinal
     return simbolo.lstrip('+') # remove o sinal de mais do início da string se existir (se não existir não faz nada)
 
 

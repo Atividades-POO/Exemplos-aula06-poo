@@ -29,7 +29,7 @@ print(type(l1)) # exibição do tipo da lista l1 <class 'list'>
 # ex. from algo import Algo as A
 # a1 = A() # instanciação de objeto A
 # também não precisamos definir quantos argumentos que podemos passar para a instanciação da classe lista
-# agora para nossa classe Algo, o inicializador deve receber um argumento compactado
+# agora para nossa classe Algo, o inicializador deve receber um argumento compactado, veremos mais a frente
 
 # exemplo de uso de passagem de varios argumentos como uma tupla
 t2 = (1,2,3,4,5) # criação de uma tupla com 5 elementos

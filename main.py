@@ -82,20 +82,21 @@ from pessoa import Pessoa as P
 # 4.2 instanciação da classe pessoa
 p1 = P('Davi', 10) # instanciação de objeto da classe Pessoa com nome 'Davi' e idade 10
 # 4.3 exibição do objeto p1
-# print(p1) # exibição do objeto p1
+''' print(p1) # exibição do objeto p1 '''
 # por padrão a exibição do objeto p1 é: <pessoa.Pessoa object at 0x000002543C4021A0>  o endereço do objeto pode mudar
 
 # comente o print acima
 # 4.4 exibição do objeto p1 em forma de string podemos sobrepor o método __repr__ (na classe pessoa)
-print(p1) # exibição do objeto p1 agora é Pessoa(Davi, 10)
+''' print(p1) # exibição do objeto p1 agora é Pessoa(Davi, 10)'''
 
 # Quando uma classe não implementa o __str__método e você passa uma instância dessa classe para o str(), Python
 # retorna o resultado do método __repr__  porque internamente o método __str__ chama o método __repr__
 
+# comente o print acima
 # 4.5 exemplo de uso de __str__
 # Se uma classe implementar o __str__método, o Python chamará o __str__método quando você passar uma
 # instância da classe para o str(). Por exemplo, vamos sobrepor o método __str__ para a classe Pessoa:
-
+print(p1) # exibição do objeto p1 agora é 'Davi tem 10 anos'
 
 
 

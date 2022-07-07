@@ -26,3 +26,8 @@ class Equacao:
     # retorar a representação string da classe Equacao
     # só para dedmostração, vamos fazer um cast para tupla
     return f'Equacao = {tuple(self.indices)}'
+
+  def __str__(self):
+    # vamos implentar o método __str__ para exibição de um objeto da classe Equacao
+    # no formato de uma equação matemática, se entramos os valores (2, 0, 3, 5) vamos exibir:
+    # o retorno será: 2x^3 + 3x + 5
